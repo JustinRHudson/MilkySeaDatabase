@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14715154.svg)](https://doi.org/10.5281/zenodo.14715154)
+
 # From Sailors to Satellites: A Curated Database of Bioluminescent Milky Seas Spanning 1600 - Present
 #### By Justin Hudson, and Steven D. Miller
 ------------
