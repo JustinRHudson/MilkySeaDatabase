@@ -7,7 +7,7 @@
     https://cds.climate.copernicus.eu/how-to-api
 
     This script also needs to be run in an environment with the cdsapi package
-    available. The ERA5_CDSAPI_ENV.yml file can be used to create such an
+    available. The cdsapi_env.yml file can be used to create such an
     environment following the directions at if one is needed:
     https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 '''
