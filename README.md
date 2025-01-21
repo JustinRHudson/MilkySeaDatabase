@@ -1,5 +1,6 @@
 # From Sailors to Satellites: A Curated Database of Bioluminescent Milky Seas Spanning 1600 - Present
-## By Justin Hudson, and Steven D. Miller
+#### By Justin Hudson, and Steven D. Miller
+------------
 
 This repository contains the code, data, and environment files used to create the figures seen in our manuscript. This repository also contains the database both as a human readable PDF and a machine readable tab separated values file (.tsv).
 
@@ -7,7 +8,7 @@ The code is split into several different scripts and a Jupyter notebook. To repl
 
 The python script Download_ERA5_Data.py uses the Copernicus Climae Date Store API to download the ERA5 data used in this manuscript and places the folders in the DATA folder. The size of the ERA5 files prevents them from being included in this GitHub repository so a script to download them had been provided instead.
 
-The jupyter notebook Figure_Gen.ipynb processes the data and generates the figures for the paper. To create Figures 9-12, the code in bootstrapping.py must be called, this however can take several hours to run.
+The jupyter notebook Figure_Gen.ipynb processes the data and generates the figures for the paper. To create Figures 9-12, the code in bootstrapping.py must be called, this however can take several hours to run for 5,000 iterations, it is currently set to only run 100 times. Comment out or change that line in Figure_Gen.ipynb in order to run it for all 5,000 iterations.
 
 ## Steps to run the code
 
@@ -26,3 +27,6 @@ The jupyter notebook Figure_Gen.ipynb processes the data and generates the figur
     - The kernel/environment used to run this notebook is the figgen_env environment. The notebook should run from start to finish producing the figures as it goes.
     - NOTE: The bootstrapping code takes a long time to run, for demonstration purposes it is set to only use 100 iterations by default, please change that cell to 5,000 iterations which is what was used in the paper if you want to truly recreate the figures.
     - The notebook should display the figures but all figures will be placed into the FIGURES folder
+
+## Corresponding Author
+Justin Hudson: justin.hudson@colostate.edu
